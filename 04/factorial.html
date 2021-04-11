@@ -8,6 +8,20 @@
 	<link rel="stylesheet" href="css/factorial.css">
 </head>
 <body>
+	<script>
+		var n = prompt('숫자를 입력하세요', 10);
+		var nFact = 1; // 팩토리얼 결과값 저장 변수
 
+		var i = 2; // 반복문 count변수(1! = 1이기 때문에 2부터 시작)
+
+		while(i <= n) {
+			nFact *= i;
+			i++;
+		}
+
+		document.write(n + '! = ' + nFact);
+
+
+	</script>
 </body>
 </html>
