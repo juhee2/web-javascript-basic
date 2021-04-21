@@ -16,6 +16,11 @@
 		</style>
 </head>
 <body>
-
+	<script>
+		var comment = ["자존심은 어리석은 자의 소유물이다", "후회를 최대한 이용하라. 깊이 후회한다는 것은 새로운 삶을 산다는 것이다.", "피할 수 없다면 즐겨라!"];
+		var random = Math.floor(Math.random() * comment.length);
+		//document.write('\"' + comment[random] + '\"');
+		document.write(String.fromCharCode(34) + comment[random] + String.fromCharCode(34));
+	</script>
 </body>
 </html>
