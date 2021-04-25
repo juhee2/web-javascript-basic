@@ -1,0 +1,1 @@
+window.onload = window.open('current.html', '현재 시각은?', 'width=300, height=50');
